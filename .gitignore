@@ -1,0 +1,65 @@
+# =============================================================================
+# PII / LGPD — NUNCA commitar dados reais de entregadores
+# =============================================================================
+# Planilhas e CSVs com cadastros reais
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.ods
+
+# Exceções: dados claramente de exemplo (descomente se precisar versionar)
+# !docs/sample-fake.csv
+
+# Backups, exports e dumps
+*.bak
+*.backup
+*.dump
+export_*
+exportacao_*
+backup_*
+cadastros_*.csv
+entregadores_*.csv
+
+# =============================================================================
+# Sistema operacional
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# Editores e IDEs
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-*
+
+# =============================================================================
+# Logs e temporários
+# =============================================================================
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# =============================================================================
+# Dependências (caso adicione build no futuro)
+# =============================================================================
+node_modules/
+dist/
+build/
+.parcel-cache/
